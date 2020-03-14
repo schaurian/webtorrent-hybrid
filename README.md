@@ -1,2 +1,2 @@
 # webtorrent-hybrid
-Docker Container for Webtorrent-hybrid
+A Dockercontainer for webtorrent-hybrid
