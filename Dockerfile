@@ -8,4 +8,4 @@ RUN npm i -g --unsafe webtorrent-hybrid
 
 
 EXPOSE 9081
-CMD ["/usr/local/bin/webtorrent-hybrid"]
+ENTRYPOINT ["/usr/local/bin/webtorrent-hybrid"]
