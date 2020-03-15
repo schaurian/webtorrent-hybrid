@@ -1,5 +1,5 @@
 # webtorrent-hybrid
-A Dockercontainer for webtorrent-hybrid
+A Dockercontainer for [webtorrent-hybrid](https://github.com/webtorrent/webtorrent-hybrid)
 
 
 Build with
@@ -17,4 +17,5 @@ Download torrent and keep seeding it
 ```
 docker run -it  -v webtorrent:/webtorrent --rm -p 8000:8000 webtorrent-hybrid download "magnet:..." --keep-seeding
 ```
-[![](https://images.microbadger.com/badges/image/schaurian/webtorrent-hybrid.svg)](https://hub.docker.com/r/schaurian/webtorrent-hybrid "Get your own image badge on microbadger.com")
+<a href="https://hub.docker.com/r/schaurian/webtorrent-hybrid"><img src="https://badgen.net/docker/size/schaurian/webtorrent-hybrid"/></a>
+<a href="https://hub.docker.com/r/schaurian/webtorrent-hybrid"><img src="https://badgen.net/github/last-commit/schaurian/webtorrent-hybrid"/></a>
